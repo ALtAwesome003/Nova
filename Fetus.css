@@ -1,0 +1,44 @@
+/*selector {
+    display: block|Inline-block|Inline-block
+}*/
+
+body {
+    text-align: center;
+}
+
+@font-face {
+    font-family: stewie;
+    src: url(Fonts/edgeracercondsuperital.ttf);
+}
+
+h1 {
+    color: black;
+    font-family: stewie;
+}
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Edward_England.svg/1280px-Flag_of_Edward_England.svg.png)
+}
+
+h1{
+    text-shadow: 2px 2px white;
+}
+
+div {
+    background: rgb(0, 51, 95);
+    width: 49%;
+    height: 25vh;
+    display: inline-block;
+    margin-bottom: 5px
+}
+
+#green {
+    background: green
+}
+
+#yellow {
+    background: yellow
+}
+
+.blue {
+    background: blue
+}
